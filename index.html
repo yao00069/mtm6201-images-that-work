@@ -154,7 +154,7 @@
         <article class="note-card">
           <div class="note-card__image">
             <!-- Task 5: Update src to note-supply.webp -->
-            <img src="images/note-gatineau.webp" alt="A textile factory floor with workers at sewing machines">
+            <img src="images/note-supply.webp" alt="A textile factory floor with workers at sewing machines">
           </div>
           <div class="note-card__body">
             <div class="note-card__meta">
@@ -182,6 +182,18 @@
   ============================================================ -->
   <section class="landscape-banner">
     <!-- Task 7: Add your <picture> element here, before landscape-banner__content -->
+    
+    <picture>
+      <source media="(max-width: 768px)" 
+      srcset="images/banner-portrait.webp">
+      
+      <source media="(min-width: 769px)" 
+      srcset="images/banner-wide.webp">
+      
+      <img src="images/banner-wide.webp" 
+      alt="A misty forest trail at dawn">
+    </picture>   
+    
     <div class="landscape-banner__content">
       <h2>Every trail<br>has a story.</h2>
       <p>Ridgeline gear is built for the ones worth telling.</p>
