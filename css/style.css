@@ -406,7 +406,7 @@ a {
   justify-content: center;
 
   /* BROKEN: This should not be a background image */
-  background-image: url('../images/landscape-banner.png');
+  
   background-size: cover;
   background-position: center;
 }
